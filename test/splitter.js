@@ -1,7 +1,7 @@
 var Split = artifacts.require("./Split.sol");
 
 contract('Split', function( first,second){
-	if("should split money correctly",function(){
+	it("should split money correctly",function(){
 		var meta;
 
 		// Get initial balances of Alice Bob and carol
